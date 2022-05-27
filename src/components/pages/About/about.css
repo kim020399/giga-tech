@@ -1,0 +1,14 @@
+.cont {
+    margin: 0px 0px 60px;
+    padding: 60px 48px;
+    background: #FFFFFF;
+    position: relative;
+    filter: drop-shadow(0px 0px 32px rgba(34, 94, 222, 0.2));
+}
+.full-page {
+    min-height: calc(100vh - 873px);
+}
+.about-cont {
+    font-size: 24px;
+    /*text-align: left;*/
+}

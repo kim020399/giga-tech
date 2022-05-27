@@ -5,9 +5,121 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (min-width: 1200px ) and (max-width: 1439px) {
+  .content {
+    padding: 0px 16px;
+  }
+}
+@media only screen and (min-width: 1440px ) {
+  .content {
+    padding: 0px 144px;
+  }
+}
+
+.content-container {
+  min-width: 1165px;
+  padding: 60px 48px;
+  background: #FFFFFF;
+  position: relative;
+  filter: drop-shadow(0px 0px 32px rgba(34, 94, 222, 0.2));
+}
+.mobile-content-container {
+  padding: 60px 48px;
+  background: #FFFFFF;
+  position: relative;
+  filter: drop-shadow(0px 0px 32px rgba(34, 94, 222, 0.2));
+}
+#root {
+  /*height: 100vh !important;*/
+}
+.full-height{
+  height: 100%;
+  min-height: 873px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100vw 873px;
+}
+.full-height-contacts{
+  height: 100%;
+  min-height: 873px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.bold {
+  font-weight: bold;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.w100 {
+  width: 100%;
+}
+.pl-16 {
+  padding-left: 16px;
+}
+.ta-center {
+  text-align: center;
+}
+.w-336{
+  width: 336px;
+}
+.title {
+  font-weight: bold;
+  font-size: 36px!important;
+  font-family: 'Montserrat', sans-serif;
+  margin: 60px 0px;
+}
+.title-mobile {
+  font-weight: bold;
+  font-size: 30px!important;
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px 0px 50px;
+}
+.white-text {
+  color: #FFFFFF !important;
 }

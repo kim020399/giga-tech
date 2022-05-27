@@ -1,0 +1,15 @@
+.address {
+    margin: 40px 0px 60px;
+    padding: 0px 40px;
+}
+.address-mobile {
+    margin: 40px 0px 60px;
+    padding: 0px 10px;
+}
+.icons {
+    margin-right: 10px;
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 24px;
+    color: #49A3D1;
+}

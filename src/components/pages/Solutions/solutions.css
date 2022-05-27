@@ -1,0 +1,23 @@
+.solutions-cont {
+    text-align: left !important;
+    font-size: 16px;
+}
+
+/*@media only screen and (min-width: 1200px ) and (max-width: 1250px) {*/
+/*    .solutions-cont {*/
+/*        width: 520px;*/
+/*        float: right;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 1250px ) and (max-width: 1300px) {*/
+/*    .solutions-cont {*/
+/*        width: 550px;*/
+/*        float: right;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 1300px ) and (max-width: 1360px) {*/
+/*    .solutions-cont {*/
+/*        width: 620px;*/
+/*        float: right;*/
+/*    }*/
+/*}*/
